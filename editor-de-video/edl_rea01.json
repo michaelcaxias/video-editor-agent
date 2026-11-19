@@ -1,0 +1,11 @@
+{
+  "takes": "/home/mcaxias/dev/video-editor-agent/editor-de-video/work/rea01",
+  "out": "/home/mcaxias/dev/video-editor-agent/editor-de-video/work/rea01/source",
+  "items": [ {"take": "take_rea_01", "ranges": [[0, 14], [21, 90]]} ],
+  "size": [1664, 928],
+  "punch_in": 1.06,
+  "crop_y": 0.15,
+  "max_gap": 0.30,
+  "keep_gap": 0.14,
+  "grade": "eq=saturation=1.08:contrast=1.05"
+}

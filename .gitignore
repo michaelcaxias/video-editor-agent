@@ -1,0 +1,48 @@
+# Mídia: nada de vídeo, áudio ou imagem de terceiros no repositório
+*.mp4
+*.mov
+*.m4v
+*.mkv
+*.webm
+*.avi
+*.gif
+*.wav
+*.mp3
+*.m4a
+*.aac
+
+# Entradas e saídas do projeto de vídeo (ficam só no disco)
+editor-de-video/videos-brutos/
+editor-de-video/referencias/
+editor-de-video/refs/
+editor-de-video/exportacao/
+editor-de-video/analise/
+editor-de-video/revisao/
+editor-de-video/work/
+
+# Projetos HyperFrames gerados pelos scripts de build/ (copiam os assets)
+editor-de-video/video/
+editor-de-video/video_*/
+.hyperframes/
+node_modules/
+
+# Python
+.venv/
+.venv-rea/
+__pycache__/
+*.pyc
+
+# Restos do teste antigo e cópia velha das skills (não versionar)
+agent/
+roteiro-teste.md
+editor-de-video/roteiro-teste-2.md
+editor-de-video/decupagem.md
+editor-de-video/storyboard.md
+editor-de-video/edl.json
+editor-de-video/build/build.py
+editor-de-video/build/build_v*.py
+
+# Sistema / editor
+.DS_Store
+*.swp
+.claude/settings.local.json
